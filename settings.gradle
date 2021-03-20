@@ -1,0 +1,6 @@
+include ':face-res'
+include ':factory'
+include ':common'
+include ':dbflowdemo'
+include ':app'
+rootProject.name = "DbflowTest"

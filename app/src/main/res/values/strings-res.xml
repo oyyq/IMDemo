@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_select_gallery">选择图片</string>
+    <string name="title_member_add">选择朋友</string>
+    <string name="title_assist_permissions">允许权限</string>
+    <string name="btn_preview">预览</string>
+    <string name="btn_send">发送</string>
+
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.oyyq.common.widget.layout.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <net.oyyq.common.widget.layout.PortraitView
+            android:id="@+id/im_portrait"
+            android:layout_margin="@dimen/len_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="start|center_vertical"
+            android:src="@drawable/default_portrait"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/textPrimary"
+            android:textSize="12sp"
+            tools:text="Mary Harmon" />
+
+    </LinearLayout>
+
+
+
+    <CheckBox
+        android:id="@+id/cb_select"
+        android:layout_width="@dimen/len_24"
+        android:layout_height="@dimen/len_24"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:layout_gravity="end|top"
+        android:button="@drawable/sel_cb_circle"
+        android:drawablePadding="10dp"
+        android:padding="0dp"
+        app:buttonTint="@color/cb_group_contact"
+        tools:ignore="MissingPrefix" />
+
+
+</net.oyyq.common.widget.layout.SquareLayout>
+
+
+
+  <!--  <TextView
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/len_20"
+        android:text="admin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/red_a100"
+        android:textSize="@dimen/font_12"
+        app:layout_constraintBottom_toBottomOf="@+id/im_portrait"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/im_portrait"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.05" />
+
+-->
+
